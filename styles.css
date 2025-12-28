@@ -355,6 +355,25 @@ a {
     margin-bottom: 0.25rem;
 }
 
+.card-credit {
+    font-family: var(--font-sans);
+    font-size: 0.65rem;
+    font-weight: 300;
+    color: var(--color-ink-muted);
+    margin-bottom: 0.5rem;
+}
+
+.card-credit a {
+    color: var(--color-ink-muted);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    transition: color var(--transition-quick);
+}
+
+.card-credit a:hover {
+    color: var(--color-ink);
+}
+
 .card-title {
     font-family: var(--font-serif);
     font-size: 1.4rem;
